@@ -8,10 +8,15 @@ class StaticC():
         i+=1
         print('第一个函数%d'%(i))
 
-    def b(add=1):                          #函数b
+    def b(add=100):                          #函数b
         print('第二个函数%d'%(add))
-    def c(add=1):#函数c
+    def c(add=200):#函数c
         print('第三个函数%d'%(add))
         return add
-    
-StaticC.c()
+
+# s1=StaticC()
+# s1.a()
+
+
+StaticC.a()
+

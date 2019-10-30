@@ -10,4 +10,3 @@ class TeatPrivate():
 show=TeatPrivate()
 show.p()
 
-

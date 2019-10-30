@@ -7,6 +7,7 @@ big_gift_box.weight=10          #10公斤
 print("大礼盒的体面积是%d立方厘米"%(big_gift_box.volume()))
 print("大礼盒的表面积是%d平方厘米"%(big_gift_box.area()))
 index=big_gift_box.type.index('大礼盒')
+print(index)
 g_box_num=big_gift_box.countBoxNums(200,index)
 print("200条鱼需要%d只大礼盒"%(g_box_num))
 print("200条鱼装大礼盒的价值为%d元"%(g_box_num*big_gift_box.price))
