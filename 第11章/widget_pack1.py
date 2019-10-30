@@ -1,0 +1,10 @@
+import tkinter
+MainForm=tkinter.Tk()
+MainForm.geometry("250x100")
+btn1=tkinter.Button(MainForm,text="1",fg="black")
+btn2=tkinter.Button(MainForm,text="2",fg="black")
+btn3=tkinter.Button(MainForm,text="3",fg="black")
+btn1.pack(side="left",padx="1m")
+btn2.pack(side="left",padx="1m")
+btn3.pack(side="left",padx="1m")
+MainForm.mainloop()

@@ -1,0 +1,4 @@
+>>> fruits=['apple',5,'peach',2,'watermelon',15.5]
+>>> fruits.append('pear')
+>>> fruits.append(3.2)
+>>> print(fruits)

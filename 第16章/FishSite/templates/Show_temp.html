@@ -1,0 +1,27 @@
+$def with (gets)
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+</head>
+ <body>
+   <table border="1">
+   <tr>
+        <td>钓鱼日期</td>
+        <td>水产品名称</td>
+        <td>数量</td>
+        <td>价格</td>
+        <td>说明</td>
+    </tr>
+
+$for data in gets:
+    <tr>
+       <td>$data[0]</td>
+       <td>$data[1]</td>
+       <td>$data[2]</td>
+       <td>$data[3]</td>
+       <td>$data[4]</td>
+    </tr>
+ </body>
+</html>            

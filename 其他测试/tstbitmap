@@ -1,0 +1,11 @@
+from Tkinter import *
+root=Tk()
+root.geometry("700x600")
+c1= Canvas(root,width=200,height=200)              
+c1.pack()                        
+filename=r'E:\MyThirdBook2017年底计划\python入门及实践\第十一章\home.jpg'
+img=BitmapImage(filename)
+c1.create_image((95,70),image=img)
+
+
+root.mainloop() 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<storehouse>
+    <goods category="fish">
+        <title>river</title>
+        <name>JiYu</name>
+        <amount>18</amount>
+        <price>8</price>
+    </goods>
+    <goods category="fruit">
+        <title>warm</title>
+        <name>Kiwi</name> 
+        <amount>10</amount>
+        <price>10</price>
+    </goods>
+</storehouse>
