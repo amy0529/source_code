@@ -1,4 +1,4 @@
-from Class_module import *                   #*代表导入所有类
+from module.Class_module import *                   #*代表导入所有类
        
 my_box2=Box2(10,10,10)                       #通过子类Box2创建my_box2实例
 print('立方体体积是%d'%(my_box2.volume()))   #通过实例调用volume()求体积，并打印

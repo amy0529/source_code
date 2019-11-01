@@ -1,4 +1,4 @@
-from Class_module import FishBox
+from module.Class_module import FishBox
 import os
 def save_file(file_name,L_newRecord):
     flag=False

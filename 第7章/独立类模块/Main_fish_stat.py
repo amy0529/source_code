@@ -1,4 +1,4 @@
-from Class_module import FishBox
+from module.Class_module import FishBox
 #===============================创建大礼盒实例，并求相关值
 big_gift_box=FishBox(60,30,40)  #创建长60cm,宽30cm，高40cm的大礼盒实例
 big_gift_box.price=1000         #价格1000元

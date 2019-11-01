@@ -1,4 +1,4 @@
-from Class_module import SHost
+from module.Class_module import SHost
 
 print(SHost.name)
 print(SHost.age)
