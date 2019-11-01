@@ -10,8 +10,15 @@ dd=1
 while dd :
     dd=t1.readline()
     print(dd)
+t1.close()
 #=========================以列表格式读取多行
 t1=open(r'd:\t2.txt','r')
 L_s=t1.readlines()
 print(L_s)
+t1.close()
+f3=open(r'd:\t2.txt','w')
+f3.seek(17)
+f3.wr
+
+
 
